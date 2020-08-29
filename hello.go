@@ -1,7 +1,8 @@
 package main
 
 import (
-	"fmt"
+	"fmt"     //required for prints, I think
+	"strconv" //string converter
 )
 
 func main() {
@@ -33,4 +34,9 @@ func main() {
 	var m float32
 	m = float32(i)
 	fmt.Printf("%v, %T", m, m)
+
+	//string conversions, must install package
+	var t string
+	t = strconv.Itoa(i)
+	fmt.Printf("%v, %T\n", t, t)
 }
