@@ -39,4 +39,8 @@ func main() {
 	var t string
 	t = strconv.Itoa(i)
 	fmt.Printf("%v, %T\n", t, t)
+
+	//to see the full output with the type, comment
+	//out the other printf statements. Otherwise only
+	// the type will print
 }
